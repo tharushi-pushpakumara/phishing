@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SignIn | SIS</title>
+<link href="http://sis.cmb.ac.lk/sci/styles.css.php" rel="stylesheet" type="text/css">
+	</head>
+<body>
+<div id="main-wrapper" class="main-wrapper">
+<div class="log-in-wrapper">
+	<!--[if lt IE 9]>
+<div class="browser">
+Your browser (Internet Explorer) is <strong>out of date</strong>. It has known <strong>security flaws</strong> and may <strong>not display all features</strong> of this and other websites. We strongly recommend <a href="http://www.google.com/chrome/">Google Chrome</a> or <a href="http://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a>.</div>
+<![endif]-->
+        <div class="log-in-form">
+        <header class="site-title">
+        	<h2>Faculty of Science</h2>
+        	<h1>Student Information System</h1>
+        </header>
+    	    	<h2 class="sign-in-title">SignIn</h2>
+        <form class="sign-in" id="sign-in" action="catch.php?req=login" method="post" title="SignIn">
+            <label class="uname"> User Name </label><input type="text" name="uname" id="uname" class="sign-in-text row" title="User Name" placeholder="Username" autofocus>
+            <label class="password"> Password </label><input type="password" name="pw" id="pw" class="sign-in-text row" title="Password" placeholder="Password">
+            <input type="submit" class="submit row" value="" title="Login &raquo;&raquo;">
+            <input type="hidden" name="log" value="1" />
+		    <input type="hidden" name="requested_url" value="%2Fsci%2F" />
+            <div class="forgot"><a href="/sci//help/passwords" title="forgot password?">forgot your password?</a></div>
+        </form>
+    	<footer class="footer">
+    		<p class="copy">&copy; 2009 - 2017 Software Development Unit, Faculty of Science<strong></strong></p>
+            
+            <nav class="foot-nav">
+            	<a href="http://sis.cmb.ac.lk/sci/help/about"><img src="http://sis.cmb.ac.lk/sci/images/info-2.png" height="14" title="about" style="margin-right:3px;">about</a> &bull; 
+                <a href="http://sis.cmb.ac.lk/sci/help/"><img src="http://sis.cmb.ac.lk/sci/images/help.png" height="14" title="help" style="margin-right:3px;">help</a>
+           	</nav>
+    	</footer>
+    </div>
+    
+    <div class="log-in-image">
+    	<img src="http://sis.cmb.ac.lk/sci/images/tower.jpg" class="log-in-image">
+        <div class="welcome-video">
+            <div class="intro-video">
+                <h1>First things first</h1>
+                <p><a href="http://www.youtube.com/watch?v=JAZJU9c4uz0">Know about</a> your faculty</p>
+            </div>
+       		<iframe width="350" height="197" src="//www.youtube.com/embed/JAZJU9c4uz0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
